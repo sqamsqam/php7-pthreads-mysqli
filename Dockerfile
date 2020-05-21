@@ -1,4 +1,4 @@
-FROM php:7.0-zts-alpine
+FROM php:zts-alpine
 
 RUN apk add --no-cache \
         $PHPIZE_DEPS \
